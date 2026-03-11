@@ -4,6 +4,8 @@ Code for computing extinction, optical polarization, and total and polarized emi
 jsmDDpol
 ----------------------------------------------------------------------
 
+Insert image here
+
 jsmDDpol computes dust extinction, optical polarization, total and
 polarized emission for the three-component dust model described in
 Siebenmorgen R. 2023, A&A, 670, A115
