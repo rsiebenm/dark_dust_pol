@@ -1,0 +1,30 @@
+Include nano-paricles vsg and PAH (0=no=0 , 1=yes)
+                          1       1
+Exponent of size distribution: qmrn
+                          3.    
+Radius of grains min/max: alC,    auC,     alSi,   auSi,   auD (cm)
+                         6.1E-7   2.6E-5   6.1E-7  2.6E-5  1.E-4
+Alignemnt: min radius aC, aSi; alignment efficiency aC (default=0, 0.5)
+                          0.8e-05     1.2e-05           0.5
+Abundances of MRN:  amorphous carbon [C]/[H] and silicon [Si]/[H] (ppm)
+                         86.      15.
+Abundances of nano particles: VSG [C]/[H]  and  VSi [Si]/[H]  (ppm)
+                          6.       13.
+Abundances of small and big PAHs: [C]/[H] (ppm)
+                         10.       0.
+No of C-atoms Nc in small and big PAHs  [30, 300]
+                         30.        0.
+Hydrogenation parameter of small and big PAHs [= 2.8/sqrt(Nc)]
+                          0.4      0.2
+ISRF scale-factor fakisrf, tauV,  E(B-V)  max optical polarisation p_Serk (%) 
+                      1.  1.4      0.45    1.5
+If fakisrf<1e-5: Star or AGN heating: enter dist, totlum, Tstar/powl
+                       1.5d13  3.85d33 6000.
+------------------------------
+last line: read subroutine ISRF: sf = fakisrf 
+    sf > 1e-5: input ISRF: parameters of last line are not needed
+ 0< sf < 1e-5: input star: distance, total luminosity,  Tstar
+ 0> sf >-2   : input AGN : distance, total luminosity,  powl >0 [jv~v^(-powl)]
+    sf = -9  : input TTauri Stars, 4 BB .... check ...
+
+

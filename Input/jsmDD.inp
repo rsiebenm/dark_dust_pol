@@ -1,0 +1,33 @@
+[0=no,1,2,3] IBUG , iblack impfit 
+             0     0      0
+Exponent of size distribution qmrn,qvsg; Si=grains=[Draine, MIX, E10, .., X50B]
+             3.    3.    'M05'
+MRN+Dark raddi alC,   auC,      alSi,   auSi,     auD (cm): 
+               6.1E-7 2.E-5    6.1E-7   2.7E-5    1.E-4
+Min aC and Si alignment radius and  max alignemnt radiu(aC=Si) [cm]
+    1.e-5  0.5e-5          1.d-4   
+Abundance of large carbon and large silicon [15ppm]
+                          8.        32.
+ISPEC [0/1] include vsg, PAH;  No. of grid points nnTvsg (< 1001)
+                      1    1              200
+VSG: Radien:lav,lev + [C] [Si] Abundances  (ppm)
+             1   4     13.  6.4
+Abundance of small and big PAHs: [C]/[H] (ppm)
+             10.        0
+No of C-atoms in small and big PAHs  [30, 300]
+             50       0
+Hydrogenation parameter of small and big PAHs [= 2.8/sqrt(Nc)]
+                           0.4     0.2
+ISRF scale-factor sf: (AGN=sf <0 ), tauV,  E(B-V)
+                  1.                1.     0.4
+if sf < 1e-5: input stellar parameters: dist, luminos, Tstar/powl
+                                        0.15d13  3.85d33    6000.
+
+
+Erl"auterungen zur letzten Zeile
+if    sf > 1e-5: input ISRF: no other parameters
+if 0< sf < 1e-5: input star: distance, luminosity,  Tstar, tau_V=0
+if 0> sf >-2   : input AGN : distance, luminosity,  powl >0 [jv~v^(-powl)]
+if sf = -9     : input TTauri Stars, 4 BB
+
+
