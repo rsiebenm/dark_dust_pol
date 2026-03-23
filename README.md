@@ -25,7 +25,7 @@ efficiencies Q. The Q values depend on
 
 The corresponding Q files are provided via the Q-file library of dust 
 cross-sections of spheroidal particles available at:
-https://zenodo.org/uploads/19185782
+https://doi.org/10.5281/zenodo.19185782
 
 ----------------------------------------------------------------------
 Compilation
@@ -90,7 +90,7 @@ Input (./Input/)
 
     For other configurations, copy appropriate files from the
     Q-file library of dust cross-sections of spheroidal particles available at:
-    https://zenodo.org/uploads/19185782
+    https://doi.org/10.5281/zenodo.19185782
 
  
 
