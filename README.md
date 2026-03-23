@@ -23,8 +23,9 @@ efficiencies Q. The Q values depend on
   - porosity
   - magnetic field orientation Omega
 
-The corresponding Q files are provided via the Q-file library
-(see pubQfile/README.txt).
+The corresponding Q files are provided via the Q-file library of dust 
+cross-sections of spheroidal particles available at:
+https://zenodo.org/uploads/19185782
 
 ----------------------------------------------------------------------
 Compilation
@@ -88,7 +89,10 @@ Input (./Input/)
       a/b = 2, porosity = 10 percent, Omega = 60 deg
 
     For other configurations, copy appropriate files from the
-    Q-file library.
+    Q-file library of dust cross-sections of spheroidal particles available at:
+    https://zenodo.org/uploads/19185782
+
+ 
 
 ----------------------------------------------------------------------
 Output (./Output/)
