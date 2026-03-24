@@ -1,10 +1,5 @@
 # dark_dust_pol
 Code for computing extinction, optical polarization, and total and polarized emission from dust.
-----------------------------------------------------------------------
-jsmDDpol
-----------------------------------------------------------------------
-
-![example figure](Example_RedPolEmis_py.png "Example")
 
 jsmDDpol computes dust extinction, optical polarization, total and
 polarized emission for the three-component dust model described in
@@ -26,6 +21,8 @@ efficiencies Q. The Q values depend on
 The corresponding Q files are provided via the Q-file library of dust 
 cross-sections of spheroidal particles available at:
 https://doi.org/10.5281/zenodo.19185782
+
+![example figure](Example_RedPolEmis_py.png "Example")
 
 ----------------------------------------------------------------------
 Compilation
@@ -120,15 +117,12 @@ by a common factor leaves the reddening curve unchanged.
 Example:
 ----------------------------------------------------------------------
 - Example_RedPolEmis.pdf
-- For reproduction of this pdf file run /a.j and use idl istart
+- For reproduction of this pdf file run /a.j and use "idl istart" or use "python pl_RedPolEmis.py"
 
 ----------------------------------------------------------------------
-Author
+Contact
 ----------------------------------------------------------------------
-
-Ralf Siebenmorgen
-European Southern Observatory (ESO)
 
 For questions or issues, please contact:
 RalfSiebenmorgen@eso.org
-----------------------------------------------------------------------
+
